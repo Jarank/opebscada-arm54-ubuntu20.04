@@ -1,0 +1,75 @@
+Format: 1.8
+Date: Wed, 08 Apr 2020 20:00:00 +0200
+Source: openscada
+Binary: openscada openscada-dbg openscada-dev openscada-doc-en openscada-doc-ru openscada-doc-uk openscada-libdb-main openscada-libdb-vca openscada-model-aglks openscada-model-boiler openscada-plc openscada-server
+Architecture: source arm64 all
+Version: 0.9.1-1
+Distribution: experimental
+Urgency: low
+Maintainer: Roman Savochenko <rom_as@oscada.org>
+Changed-By: Roman Savochenko <roman@oscada.org>
+Description:
+ openscada  - Open SCADA system project
+ openscada-dbg - Debug symbols for OpenSCADA
+ openscada-dev - OpenSCADA development
+ openscada-doc-en - OpenSCADA documents (EN)
+ openscada-doc-ru - OpenSCADA documents (RU)
+ openscada-doc-uk - OpenSCADA documents (UK)
+ openscada-libdb-main - Main OpenSCADA libraries for DAQ and other into SQLite DB
+ openscada-libdb-vca - Visual components libraries into SQLite DB
+ openscada-model-aglks - Model "AGLKS" data bases and config (Demo: EN,UK,RU)
+ openscada-model-boiler - Model "Boiler" data bases and config (EN,UK,RU)
+ openscada-plc - OpenSCADA - PLC virtual package
+ openscada-server - OpenSCADA - server virtual package
+Changes:
+ openscada (0.9.1-1) experimental; urgency=low
+ .
+   * Update 1 of OpenSCADA 0.9 LTS.
+Checksums-Sha1:
+ aad73e4488cbabf5a50c1ef71f5022b45bb6fd2a 1711 openscada_0.9.1-1.dsc
+ 44fdede0db1ac74fc15630cc55a752fc8e1010e0 112270990 openscada_0.9.1-1.tar.gz
+ 574d75a67752f7ee56d2ac758eb9050b01312a9b 41380032 openscada-dbg_0.9.1-1_arm64.deb
+ f97193df8941105fca9286d18ca1a82b186600ad 276836 openscada-dev_0.9.1-1_arm64.deb
+ 63d94c7a71059b1f26f94c0fe643a64da45521ee 35620772 openscada-doc-en_0.9.1-1_all.deb
+ 50327580c959e6a1d856f678be68820f45ea0d38 31111312 openscada-doc-ru_0.9.1-1_all.deb
+ b5422af93d7a7e2a1fb15db33fdd461fc04258e0 31953588 openscada-doc-uk_0.9.1-1_all.deb
+ ad846d73a2d8dbf56ae007b5fb9c4e27dcfc5791 415440 openscada-libdb-main_0.9.1-1_all.deb
+ 6f0bf6cf20f5be5ec552d6fa8ccdc95f1881f4b1 1229516 openscada-libdb-vca_0.9.1-1_all.deb
+ d9a08b324b29c4ba284aa72d45a380564e02d06d 439720 openscada-model-aglks_0.9.1-1_all.deb
+ dc5c7a364030a9b2a818109081d48e801b6be794 924316 openscada-model-boiler_0.9.1-1_all.deb
+ 5329029b5c28ed114a80d1bb709fb915ee3e1d85 242532 openscada-plc_0.9.1-1_all.deb
+ 5a13c92c2f027e0b5c004bcfcae0021137433b4a 242528 openscada-server_0.9.1-1_all.deb
+ 25cf06ccb3876f49f556669100b4baeb11940a89 19302 openscada_0.9.1-1_arm64.buildinfo
+ 7f42f7903c718d810cece7cfc19e34e153db47ab 4559728 openscada_0.9.1-1_arm64.deb
+Checksums-Sha256:
+ b1a0dafc2d7cfa9cc75f57957feac6ba71dcc8194aeba5126fc83f881d95ee0d 1711 openscada_0.9.1-1.dsc
+ 815e89297f38c444eac50aa5931b8b81957c1b53ef5ddaff9dca15d02e5b29f9 112270990 openscada_0.9.1-1.tar.gz
+ 6520b4e21d715d2bd54d3a56c243c76ce786a9a52bc47508aa36524fe79d8b3b 41380032 openscada-dbg_0.9.1-1_arm64.deb
+ ba2ec1bf115e1ae278799f77e778af4e679502fd1745e954497516c11411ea19 276836 openscada-dev_0.9.1-1_arm64.deb
+ 45b4394528a545695897d1a5adaea0192f0bab66d3b79eed47c34836f187b0f5 35620772 openscada-doc-en_0.9.1-1_all.deb
+ a6cd46ce00aac2af2b7f1fdda26399e00a7304495d1c8fcd85d8f8a108444d21 31111312 openscada-doc-ru_0.9.1-1_all.deb
+ e16108e7f2fc8fb02fc66fc55939a22f7c5e2b4e8b749873a164dbb050566da7 31953588 openscada-doc-uk_0.9.1-1_all.deb
+ 81bd26e0860ba9133ce4804fcea69d4111e04213bc4591dc2d053ea574424fa7 415440 openscada-libdb-main_0.9.1-1_all.deb
+ cfc8b259691ccd63398a66e3e889e9395a35cb23e3f7354e6ee29cf3819ec7bf 1229516 openscada-libdb-vca_0.9.1-1_all.deb
+ 858064715654e0320ed8c268d83554a48c59f3f97cebb92a164bc2789459fa21 439720 openscada-model-aglks_0.9.1-1_all.deb
+ c7a90a5b726b77ac9e06e70a3e9bdba9cecf558c570d00f58f28fbc83b284523 924316 openscada-model-boiler_0.9.1-1_all.deb
+ 288a941941f12339163d18b308a24225bf4c8f155fedd1e1a96d78596ba8f5aa 242532 openscada-plc_0.9.1-1_all.deb
+ 95a3c48aa4818ea2967ca1fe4f363909d8be3e1f0c1105901939cccf420a9da4 242528 openscada-server_0.9.1-1_all.deb
+ f7c2052d9e67d75d04a2450e54bb6eeadfdf9726773a50edc287c0e4e7b434ae 19302 openscada_0.9.1-1_arm64.buildinfo
+ 74829a47327f329267fcfd80a842f13785282f2800b79f0167ffdc1ce7318002 4559728 openscada_0.9.1-1_arm64.deb
+Files:
+ c94388c0c55c59a521af8e4e181b46b2 1711 graphics optional openscada_0.9.1-1.dsc
+ 712b276eb41f81ff00515f192d528659 112270990 graphics optional openscada_0.9.1-1.tar.gz
+ 524431efb75c9746fe942d0c71aff4a9 41380032 debug extra openscada-dbg_0.9.1-1_arm64.deb
+ 6c041caa0fe3c77fd943fc4ef2971a2d 276836 graphics optional openscada-dev_0.9.1-1_arm64.deb
+ deae777e5f1c568e83d049cd1ef93098 35620772 graphics optional openscada-doc-en_0.9.1-1_all.deb
+ 4aad85d83cf1939a278ddb7d4c2d2c80 31111312 graphics optional openscada-doc-ru_0.9.1-1_all.deb
+ 26e92125bc50442a264ae887d262bf9b 31953588 graphics optional openscada-doc-uk_0.9.1-1_all.deb
+ a64bbaab85af9968c837d03d57a10bd2 415440 graphics optional openscada-libdb-main_0.9.1-1_all.deb
+ ab524f446aa669da9a2728f2fec1288b 1229516 graphics optional openscada-libdb-vca_0.9.1-1_all.deb
+ 92b07ccd547a2164051490256e79a7e3 439720 graphics optional openscada-model-aglks_0.9.1-1_all.deb
+ 74e69ebf705950be2818747b1e98854a 924316 graphics optional openscada-model-boiler_0.9.1-1_all.deb
+ e68cc5b6a9238a5dbb8f0101d1d5fca1 242532 graphics optional openscada-plc_0.9.1-1_all.deb
+ 7732e60ad993493e4643489e990f7d3c 242528 graphics optional openscada-server_0.9.1-1_all.deb
+ 0a9f7ccbb893d93149a580b0ee0ab493 19302 graphics optional openscada_0.9.1-1_arm64.buildinfo
+ 4c6e96c203640a6c136702bd2c0b036a 4559728 graphics optional openscada_0.9.1-1_arm64.deb
